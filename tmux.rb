@@ -1,4 +1,4 @@
-class Tmux < Formula
+class Tmux21 < Formula
   desc "Terminal multiplexer"
   homepage "https://tmux.github.io/"
 
@@ -18,14 +18,6 @@ class Tmux < Formula
       url "https://github.com/tmux/tmux/commit/23fdbc.patch"
       sha256 "7ec4e7f325f836de5948c3f3b03bec6031d60a17927a5f50fdb2e13842e90c3e"
     end
-  end
-
-  bottle do
-    cellar :any
-    revision 1
-    sha256 "627aef14033e462ffd4694dcc052eca01d8e3b13e6db5bad9717643c9e342ff1" => :el_capitan
-    sha256 "e566bb8605da1ee8aa001730c2a17f2082b39e2a949cce3502b3100a6c621878" => :yosemite
-    sha256 "caa0bdef33a828985dc507fa1206a3cafe8677e55a4df2ecf8434e37693afd71" => :mavericks
   end
 
   head do
